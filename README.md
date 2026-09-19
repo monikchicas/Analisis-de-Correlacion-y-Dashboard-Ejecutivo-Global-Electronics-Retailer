@@ -8,17 +8,17 @@ Las herramientas utilizadas fueron SQL Server, para el análisis exploratorio (E
 
 ## 2.0 Problema de Negocio
 
-La empresa Global Electronics Retailer es una cadena minorista de electrónica de consumo, con presencia en ocho países (Estados Unidos, Reino Unido, Alemania, Francia, Canadá, Australia, Italia y Países Bajos) a través de tiendas físicas y un canal de venta en línea. Su catálogo abarca categorías como audio, cámaras, celulares, computadoras, videojuegos y juguetes, electrodomésticos, entretenimiento (música, películas y libros), y televisores.
+La empresa Global Electronics Retailer es una cadena mayorista multinacional de electrónica de consumo, con presencia en ocho países (Estados Unidos, Reino Unido, Alemania, Francia, Canadá, Australia, Italia y Países Bajos) a través de tiendas físicas y un canal de venta en línea. Su catálogo abarca categorías como audio, cámaras, celulares, computadoras, videojuegos y juguetes, electrodomésticos, entretenimiento (música, películas y libros), y televisores.
 
-Ante una operación distribuida en múltiples países y canales, la dirección de la empresa necesita identificar qué factores se relacionan con el desempeño de ventas a nivel de tienda y de cliente para orientar decisiones sobre distrubucion afectiva de tiendas fisicas e identificar oportunidades de mejora.
+Ante una operación distribuida en múltiples países y canales, la dirección de la empresa necesita identificar qué factores se relacionan con el desempeño de ventas a nivel de tienda y de cliente para orientar decisiones sobre distrubucion efectiva de tiendas fisicas e identificar oportunidades de mejora.
 
 ## 3.0 Hipótesis
 
-H1 - Margen vs. Cantidad vendida: se espera encontrar una relación entre el margen unitario de un producto y la cantidad de unidades vendidas, bajo la premisa de que productos con menor margen (más económicos) tienden a venderse en mayor volumen.
+H1 - Margen vs. Cantidad vendida: se esperaba encontrar una relación entre el margen unitario de un producto y la cantidad de unidades vendidas, bajo la premisa de que productos con menor margen (más económicos) tienden a venderse en mayor volumen.
 
-H2 - Edad del cliente vs. Gasto total: se espera que la edad del cliente tuviera algún grado de relación con su gasto total acumulado.
+H2 - Edad del cliente vs. Gasto total: se esperaba que la edad del cliente tuviera algún grado de relación con su gasto total acumulado.
 
-H3 - Tamaño de tienda vs. Ventas totales: se espera que las tiendas físicas de mayor tamaño (en metros cuadrados) generaran mayores ventas totales, bajo la premisa de que más espacio permite exhibir más inventario y atender más clientes.
+H3 - Tamaño de tienda vs. Ventas totales: se esperaba que las tiendas físicas de mayor tamaño (en metros cuadrados) generaran mayores ventas totales, bajo la premisa de que más espacio permite exhibir más inventario y atender más clientes.
 
 
 ## 4.0 Fuente de Datos
@@ -90,7 +90,7 @@ En conclusión: la edad del cliente no es un factor que explique o prediga cuant
 
 ### 7.3.2 Hallazgo
 
-El resultado para esta correlación fué de R = 0.6022, lo que, según la escala de interpretación utilizada, se ubica en el rango moderado. Al ser positivo, se puede afirmar que existe una relación directa entre las variables: a mayor tamaño de tienda (m²) mayor tiende a ser su volumen de ventas totales.
+El resultado para esta correlación fue de R = 0.6022, lo que, según la escala de interpretación utilizada, se ubica en el rango moderado. Al ser positivo, se puede afirmar que existe una relación directa entre las variables: a mayor tamaño de tienda (m²) mayor tiende a ser su volumen de ventas totales.
 
 Aplicando el coeficiente de determinación R² = (0.6022)² = 0.3626 el tamaño de la tienda explica aproximadamente el 36.3% de la variación en las ventas totales. El 63.7% restante depende de otros factores no incluidos en este análisis, como: ubicación, tráfico de clientes o combinación de productos.
 
@@ -179,10 +179,8 @@ Próximos Pasos
 
 * Explorar qué variables explican mejor el volumen de ventas por producto y el gasto por cliente, dado que margen y edad no resultaron relevantes.
 * Ampliar el análisis de regresión de tiendas incorporando variables adicionales (ubicación, antigüedad de la tienda) más allá del tamaño físico.
-*Profundizar la segmentación de clientes con un modelo RFM completo (Recencia, Frecuencia y Monetario), en lugar de segmentar únicamente por gasto total.
+* Profundizar la segmentación de clientes con un modelo RFM completo (Recencia, Frecuencia y Monetario), en lugar de segmentar únicamente por gasto total.
 * Aplicar los aprendizajes de este proyecto a los próximos dos proyectos de portafolio planeados, enfocados en limpieza de datos y modelado de datos (identificación de entidades y tablas).
-
-## 11.0 Estructura del Repositorio
 
 ## 11.0 Estructura del Repositorio
 
