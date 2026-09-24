@@ -1,3 +1,5 @@
+🇪🇸 Español | [🇬🇧 English](README-en.md)
+
 # Análisis de Correlación y Dashboard Ejecutivo - Global Electronics Retailer
 
 ## 1.0 Resumen del Proyecto
@@ -196,6 +198,6 @@ Próximos Pasos
 
 👤 Autora
 
-Monica Abigail Chicas Cardona — Data Analyst | Ingeniera Industrial
+Monica Chicas — Analista de Datos | Ingeniera Industrial
 
 [LinkedIn](https://www.linkedin.com/in/monica-chicas-6132913bb/) · [GitHub](https://github.com/monikchicas)
