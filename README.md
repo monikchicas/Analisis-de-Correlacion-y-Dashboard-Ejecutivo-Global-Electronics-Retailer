@@ -12,7 +12,7 @@ Las herramientas utilizadas fueron SQL Server, para el análisis exploratorio (E
 
 La empresa Global Electronics Retailer es una cadena minorista de electrónica de consumo, con presencia en ocho países (Estados Unidos, Reino Unido, Alemania, Francia, Canadá, Australia, Italia y Países Bajos) a través de tiendas físicas y un canal de venta en línea. Su catálogo abarca categorías como audio, cámaras, celulares, computadoras, videojuegos y juguetes, electrodomésticos, entretenimiento (música, películas y libros), y televisores.
 
-Ante una operación distribuida en múltiples países y canales, la dirección de la empresa necesita identificar qué factores se relacionan con el desempeño de ventas a nivel de tienda y de cliente para orientar decisiones sobre distrubucion efectiva de tiendas fisicas e identificar oportunidades de mejora.
+Ante una operación distribuida en múltiples países y canales, la dirección de la empresa necesita identificar qué factores se relacionan con el desempeño de ventas a nivel de tienda y de cliente para orientar decisiones sobre distrubución efectiva de tiendas físicas e identificar oportunidades de mejora.
 
 ## 3.0 Hipótesis
 
