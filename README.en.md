@@ -1,4 +1,4 @@
-[🇪🇸 Español](README.md) | [🇺🇸 English](README.en.md)
+[🇪🇸 Español](README.md) | [🇺🇸 English]
 
 # Correlation Analysis and Executive Dashboard - Global Electronics Retailer
 
