@@ -12,7 +12,7 @@ Las herramientas utilizadas fueron SQL Server, para el análisis exploratorio (E
 
 La empresa Global Electronics Retailer es una cadena minorista de electrónica de consumo, con presencia en ocho países (Estados Unidos, Reino Unido, Alemania, Francia, Canadá, Australia, Italia y Países Bajos) a través de tiendas físicas y un canal de venta en línea. Su catálogo abarca categorías como audio, cámaras, celulares, computadoras, videojuegos y juguetes, electrodomésticos, entretenimiento (música, películas y libros), y televisores.
 
-Ante una operación distribuida en múltiples países y canales, la dirección de la empresa necesita identificar qué factores se relacionan con el desempeño de ventas a nivel de tienda y de cliente para orientar decisiones sobre distrubución efectiva de tiendas físicas e identificar oportunidades de mejora.
+Ante una operación distribuida en múltiples países y canales, la dirección de la empresa necesita identificar qué factores se relacionan con el desempeño de ventas a nivel de tienda y de cliente para orientar decisiones sobre distribución efectiva de tiendas fisicas e identificar oportunidades de mejora.
 
 ## 3.0 Hipótesis
 
@@ -61,7 +61,7 @@ Finalizada la etapa de consultas en SQL Server, las tablas y vistas resultantes 
 
 ### 7.1.2 Hallazgo
 
-EL resultado R negativo (-0.1186) nos indica que en promedio a mayor margen hay una ligera cantidad menos vendida y viceversa. Segun la escala de interpretacion del coeficiente: (0-0.3) débil, (0.3-0.7) moderada y (0.7-1) fuerte entonces con 0.1186 cae en el rango de coeficiente débil sería prácticamente casi nula.
+EL resultado R negativo (-0.1186) nos indica que en promedio a mayor margen hay una ligera cantidad menos vendida y viceversa. Según la escala de interpretacion del coeficiente: (0-0.3) débil, (0.3-0.7) moderada y (0.7-1) fuerte entonces con 0.1186 cae en el rango de coeficiente débil sería prácticamente casi nula.
 
 En conclusión: el margen de un producto no tiene una relación confiable con su volumen de ventas, no se puede usar el margen para predecir si algo se va a vender mucho o poco.
 
@@ -163,7 +163,7 @@ Al equipo de Expansión y Operaciones de Tienda:
 
 Al equipo de Retención de Clientes y Marketing:
 
-3. El 25% de clientes que más gasta genera el 62.74% de los ingresos totales de la empresa, mientras que el 25% que menos gasta apenas representa el 2.68%. Dada esta alta concentración, se recomienda priorizar los recursos de retención y fidelización (programas de lealtad, atención personalizada, ofertas dirigidas) en el segmento de mayor gasto (cuartil 1) por encima de estratégias de adquisición de nuevos clientes, perder una fracción de este grupo tendría un impacto financiero desproporcionadamente mayor que perder clientes de los cuartiles inferiores. Se recomienda además investigar qué características comparten los clientes de este segmento (categorías de producto preferidas, frecuencia de compra, canal de compra) para replicar ese perfil en campañas de adquisición.
+3. El 25% de clientes que más gasta genera el 62.74% de los ingresos totales de la empresa, mientras que el 25% que menos gasta apenas representa el 2.68%. Dada esta alta concentración, se recomienda priorizar los recursos de retención y fidelización (programas de lealtad, atención personalizada, ofertas dirigidas) en el segmento de mayor gasto (cuartil 1) por encima de estrategias de adquisición de nuevos clientes, perder una fracción de este grupo tendría un impacto financiero desproporcionadamente mayor que perder clientes de los cuartiles inferiores. Se recomienda además investigar qué características comparten los clientes de este segmento (categorías de producto preferidas, frecuencia de compra, canal de compra) para replicar ese perfil en campañas de adquisición.
 
 
 ## 10.0 Limitaciones y Próximos Pasos
@@ -188,12 +188,11 @@ Próximos Pasos
 
 | Carpeta/Archivo | Descripción |
 |---|---|
-| `sql/` | Scripts de SQL Server: creación de base de datos, modelado (PK/FK), vistas, consultas de correlación, regresión y KPIs |
+| `sqlserver/` | Scripts de SQL Server: creación de base de datos, modelado (PK/FK), vistas, consultas de correlación, regresión y KPIs |
 | `powerbi/` | Archivo `.pbix` del dashboard ejecutivo |
 | `images/` | Capturas de resultados de SQL y del dashboard, utilizadas en este README |
 | `data/` | Archivo `.md` con el enlace al dataset original en Maven Analytics (no se incluye el CSV por su tamaño) |
 | `README.md` | Este documento |
-
 
 
 👤 Autora
